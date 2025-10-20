@@ -1,0 +1,5 @@
+{
+  "name": "Cloud Status Sentinel",
+  "description": "An intelligent dashboard that mirrors cloud service health statuses, providing deep analysis, permanent solutions, and vulnerability test scenarios for each incident using the Gemini API.",
+  "requestFramePermissions": []
+}
