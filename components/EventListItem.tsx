@@ -108,11 +108,14 @@ export const EventListItem: React.FC<EventListItemProps> = ({ event, onSelectEve
                 </div>
             )}
 
-             <div className="mt-6 text-center">
+             <div className="mt-8 flex justify-end">
                 <button 
                   onClick={() => onSelectEvent(event)} 
-                  className="text-blue-400 hover:text-blue-300 text-sm font-semibold">
-                    {t('analyze_with_gemini')} &rarr;
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200 ease-in-out flex items-center space-x-2 text-sm">
+                    <span>{t('analyze_event_button')}</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
                 </button>
             </div>
         </div>

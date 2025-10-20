@@ -33,7 +33,7 @@ const SideNavContent: React.FC = () => {
     </div>
   );
   
-  const regionSection = (continentKey: TranslationKey, regionLinks: {key: TranslationKey, name: string}[]) => (
+  const regionSection = (continentKey: TranslationKey, regionLinks: {key: string, name: string}[]) => (
      <div className="py-2">
       <details>
         <summary className="flex items-center font-bold text-sm text-gray-300 cursor-pointer hover:text-white">
