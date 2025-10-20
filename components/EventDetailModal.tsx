@@ -105,10 +105,10 @@ export const EventDetailModal: React.FC<EventDetailModalProps> = ({ event, isOpe
                 id="llm-select"
                 value={selectedLlm}
                 onChange={(e) => setSelectedLlm(e.target.value)}
-                className="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-[#1f2937] border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 appearance-none"
             >
                 <option value="gemini-2.5-flash">{t('gemini_model_name')}</option>
-                <option value="llama-3-simulated">{t('llama_model_name_simulated')}</option>
+                <option value="gemini-2.5-pro">{t('gemini_pro_model_name')}</option>
             </select>
           </div>
 

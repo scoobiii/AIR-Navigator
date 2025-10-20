@@ -35,12 +35,10 @@ const analysisSchema = {
 export const analyzeEventWithGemini = async (event: ServiceEvent, locale: string, llm: string): Promise<GeminiAnalysis> => {
     
     const languageInstruction = `Please provide your entire response in the following language: ${locale}.`;
-    const personaInstruction = `Perform this analysis from the perspective of the ${llm} model.`;
     
     const prompt = `
     As a world-class Senior Site Reliability Engineer (SRE) and cloud security expert, analyze the following cloud service failure event.
     ${languageInstruction}
-    ${personaInstruction}
 
     Event Details:
     - Service: ${event.service}
@@ -58,7 +56,7 @@ export const analyzeEventWithGemini = async (event: ServiceEvent, locale: string
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: llm, // Use the selected model for the API call
             contents: prompt,
             config: {
                 responseMimeType: "application/json",

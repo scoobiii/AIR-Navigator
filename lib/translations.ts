@@ -59,7 +59,7 @@ export const translations = {
     'vulnerability_test_scenarios': 'Vulnerability Test Scenarios',
     'select_llm': 'Select LLM for Analysis',
     'gemini_model_name': 'Gemini 2.5 Flash',
-    'llama_model_name_simulated': 'Llama 3 (Simulated)',
+    'gemini_pro_model_name': 'Gemini 2.5 Pro',
 
     // Loading
     'contacting_gemini': 'Contacting Gemini...',
@@ -109,7 +109,7 @@ export const translations = {
     'no_detailed_updates': 'Nenhuma atualização detalhada disponível para este evento.',
     'affected_services': 'Serviços Afetados',
     'impacted': 'Impactados',
-    'resolved': 'Resolvidos',
+    'resolvidos': 'Resolvidos',
 
     // Modal
     'event_summary': 'Resumo do Evento',
@@ -124,7 +124,7 @@ export const translations = {
     'vulnerability_test_scenarios': 'Cenários de Teste de Vulnerabilidade',
     'select_llm': 'Selecione o LLM para Análise',
     'gemini_model_name': 'Gemini 2.5 Flash',
-    'llama_model_name_simulated': 'Llama 3 (Simulado)',
+    'gemini_pro_model_name': 'Gemini 2.5 Pro',
     
     // Loading
     'contacting_gemini': 'Contatando Gemini...',
@@ -189,7 +189,7 @@ export const translations = {
     'vulnerability_test_scenarios': 'Escenarios de Prueba de Vulnerabilidad',
     'select_llm': 'Seleccione LLM para Análisis',
     'gemini_model_name': 'Gemini 2.5 Flash',
-    'llama_model_name_simulated': 'Llama 3 (Simulado)',
+    'gemini_pro_model_name': 'Gemini 2.5 Pro',
     
     // Loading
     'contacting_gemini': 'Contactando a Gemini...',
